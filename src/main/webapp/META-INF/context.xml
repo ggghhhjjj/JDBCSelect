@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context debug="99" path="/jdbcselect" reloadable="true">
+	
+    <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver"
+                  maxActive="100" maxIdle="20" name="jdbc/sampledb" 
+                  testOnBorrow="true" type="javax.sql.DataSource"
+                  url="jdbc:derby://localhost:1527/sample" password="app"
+                  username="app" />
+</Context>
